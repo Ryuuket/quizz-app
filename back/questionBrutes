@@ -1,0 +1,601 @@
+Question 1: Qu'est-ce que le JSON ?
+A. Java Source Open Network
+B. JavaScript Object Notation (Réponse correcte)
+C. JavaScript Online Network
+D. Java Standard Output Network
+
+Question 2: Comment pouvez-vous améliorer la performance d'un site web ?
+A. En augmentant la taille des images
+B. En utilisant des scripts complexes
+C. En minimisant les fichiers CSS et JavaScript (Réponse correcte)
+D. En évitant le cache navigateur
+
+Question 3: Quelle est la différence entre les éléments div et span en HTML ?
+A. div est un élément en ligne, alors que span est un élément de bloc
+B. Il n'y a aucune différence
+C. div est un élément de bloc, alors que span est un élément en ligne (Réponse correcte)
+D. span ne peut contenir que du texte
+
+Question 4: Qu'est-ce que le Web 3.0 ?
+A. Une nouvelle version de JavaScript
+B. Un système d'exploitation avancé
+C. La troisième génération d'Internet, centrée sur l'intelligence artificielle et le machine learning (Réponse correcte)
+D. Un navigateur web amélioré
+
+Question 5: Qu'est-ce que le modèle de boîte CSS ?
+A. Un modèle pour les boîtes de dialogue
+B. Un outil pour créer des boîtes 3D en CSS
+C. Un système pour la mise en page et le design des éléments web (Réponse correcte)
+D. Un arrangement de différents éléments HTML en forme de boîte
+
+Question 6: Qu'est-ce que le design responsive ?
+A. Un design qui réagit rapidement aux interactions de l'utilisateur
+B. Un design qui s'adapte automatiquement à la taille de l'écran de l'appareil (Réponse correcte)
+C. Un style de design basé sur des réponses utilisateur
+D. Une méthode de design utilisant des graphiques réactifs
+
+Question 7: Qu'est-ce que l'UX Design ?
+A. Design axé sur l'expérience utilisateur, visant à améliorer la satisfaction et l'accessibilité (Réponse correcte)
+B. Un processus de design centré sur l'utilisation de XML
+C. Technique de design axée uniquement sur l'esthétique
+D. Méthodologie de design basée sur le développement de l'interface utilisateur
+
+Question 8: Qu'est-ce que React ?
+A. Un langage de programmation
+B. Un framework JavaScript pour construire des interfaces utilisateur (Réponse correcte)
+C. Un outil de gestion de base de données
+D. Une bibliothèque CSS
+
+Question 9: Qu'est-ce qu'une base de données relationnelle ?
+A. Une base de données basée sur des relations entre les utilisateurs
+B. Une base de données utilisant uniquement du langage SQL
+C. Un système de gestion de base de données où les données sont stockées dans des tableaux reliés entre eux (Réponse correcte)
+D. Un type de base de données utilisant le stockage clé-valeur
+
+Question 10: Quels sont les avantages de la minification des ressources ?
+A. Augmentation de la taille des fichiers
+B. Réduction du temps de chargement des pages et amélioration des performances (Réponse correcte)
+C. Amélioration de la qualité graphique
+D. Augmentation de la sécurité du site
+
+Question 11: Comment centrer un élément dans CSS ?
+A. align-items: center;
+B. justify-content: center;
+C. margin: auto; (Réponse correcte)
+D. text-align: center; pour les éléments de bloc
+
+Question 12: Comment fonctionne la communication client-serveur ?
+A. Le serveur envoie des requêtes et le client répond
+B. La communication est unidirectionnelle, du client vers le serveur uniquement
+C. Le client envoie des requêtes au serveur qui répond avec des données (Réponse correcte)
+D. Elle fonctionne exclusivement via des emails
+
+Question 13: Comment jQuery simplifie-t-il le développement JavaScript ?
+A. En remplaçant complètement JavaScript
+B. En fournissant une syntaxe plus courte et des fonctions simplifiées pour manipuler le DOM (Réponse correcte)
+C. En augmentant la performance de JavaScript
+D. En convertissant le code JavaScript en Java
+
+Question 14: Quelle est la différence entre une application web responsive et une application mobile native ?
+A. Une application web responsive est installée sur le téléphone, contrairement à une application mobile native
+B. Il n'y a aucune différence
+C. Une application mobile native est conçue spécifiquement pour un système d'exploitation, tandis qu'une application web responsive s'adapte à n'importe quel navigateur (Réponse correcte)
+D. Les applications web responsives sont plus sécurisées que les applications mobiles natives
+
+Question 15: Qu'est-ce que l'injection SQL ?
+A. Un processus de sauvegarde des données SQL
+B. Une technique d'attaque où des instructions SQL malveillantes sont insérées dans un champ de saisie (Réponse correcte)
+C. Une méthode pour injecter du code JavaScript dans des bases de données
+D. Un outil de débogage pour les bases de données
+
+Question 16: Comment interrogez-vous une base de données ?
+A. En utilisant HTML
+B. En utilisant des requêtes spécifiques, souvent écrites en SQL (Réponse correcte)
+C. En utilisant CSS
+D. En envoyant des emails au serveur de base de données
+
+Question 17: Qu'est-ce que Git ?
+A. Un éditeur de texte pour développeurs
+B. Un système de gestion de base de données
+C. Un logiciel de contrôle de version distribué pour suivre les changements dans les fichiers source (Réponse correcte)
+D. Un framework de développement web
+
+Question 18: Qu'est-ce que le flexbox en CSS ?
+A. Un outil pour créer des animations
+B. Une méthode de mise en page qui permet un agencement flexible des éléments dans un conteneur (Réponse correcte)
+C. Un nouveau type de boîte de dialogue
+D. Un framework CSS
+
+Question 19: Qu'est-ce que l'accessibilité web ?
+A. La vitesse de chargement d'un site web
+B. La facilité d'accès à Internet
+C. La pratique de rendre votre site web utilisable par le plus grand nombre de personnes, y compris celles ayant des handicaps (Réponse correcte)
+D. La disponibilité d'un site web sur différents appareils
+
+Question 20: Comment fonctionne le caching dans le développement web ?
+A. En stockant des données utilisateur pour une utilisation ultérieure
+B. En stockant temporairement des éléments web pour réduire les temps de chargement lors de visites ultérieures (Réponse correcte)
+C. En augmentant la taille de stockage du serveur
+D. En cryptant les données
+
+Question 21: Quels sont les différents sélecteurs en CSS ?
+A. Tags, ID, classes et attributs (Réponse correcte)
+B. Fonctions, variables, constantes et opérateurs
+C. Paragraphes, en-têtes, listes et tables
+D. Boutons, liens, images et textes
+
+Question 22: Comment testez-vous un site web sur différents appareils mobiles ?
+A. En changeant la résolution de votre moniteur
+B. En utilisant des simulateurs et des émulateurs d'appareils, ainsi que des tests sur de vrais appareils (Réponse correcte)
+C. En ajustant uniquement la taille de la fenêtre du navigateur
+D. C'est inutile car tous les navigateurs mobiles affichent les sites de la même manière
+
+Question 23: Qu'est-ce que le JSON Web Token (JWT) ?
+A. Un type de cryptographie pour le web
+B. Un protocole de transfert de données
+C. Une méthode pour compresser les données JSON
+D. Un standard ouvert pour la création de tokens d'accès qui permettent de transmettre des informations entre parties de manière sécurisée (Réponse correcte)
+
+Question 24: Quelle est la différence entre SQL et NoSQL ?
+A. SQL est un langage de programmation, NoSQL est un système de gestion de base de données
+B. SQL utilise des tables structurées pour les données, tandis que NoSQL permet une variété de modèles de données, comme les documents ou les graphes (Réponse correcte)
+C. Aucune différence, NoSQL est simplement une version plus récente de SQL
+D. SQL est pour les bases de données en ligne, NoSQL pour les bases de données hors ligne
+
+Question 25: Comment pouvez-vous rendre un site web accessible ?
+A. En utilisant des couleurs vives et des animations
+B. En le rendant disponible en plusieurs langues uniquement
+C. En suivant les directives d'accessibilité, comme fournir des textes alternatifs pour les images et assurer une navigation au clavier (Réponse correcte)
+D. En limitant le contenu à du texte uniquement
+
+Question 26: Qu'est-ce que Node.js ?
+A. Un éditeur de texte pour JavaScript
+B. Une base de données NoSQL
+C. Un environnement d'exécution JavaScript côté serveur pour exécuter JavaScript côté serveur (Réponse correcte)
+D. Un nouveau langage de programmation basé sur Java
+
+Question 27: Quelle est la différence entre le développement front-end et back-end ?
+A. Aucune différence, les deux termes sont interchangeables
+B. Front-end concerne la conception graphique, back-end le marketing
+C. Front-end traite de l'interface utilisateur et de l'expérience utilisateur, tandis que back-end gère la logique serveur et les bases de données (Réponse correcte)
+D. Front-end est pour les débutants, back-end pour les développeurs expérimentés
+
+Question 28: Comment créez-vous un formulaire HTML ?
+A. En utilisant <form> pour créer le formulaire et des éléments comme <input>, <textarea> pour les champs (Réponse correcte)
+B. En utilisant uniquement des boutons
+C. Avec des balises <table>
+D. En écrivant du texte en gras
+
+Question 29: Qu'est-ce que le CSS ?
+A. Computer Super Speed
+B. Creative Scripting Syntax
+C. Cascading Style Sheets, un langage utilisé pour décrire la présentation d'un document écrit en HTML ou XML (Réponse correcte)
+D. Compact Server Script
+
+Question 30: Comment fonctionnent les événements en JavaScript ?
+A. Ils permettent de lire des données depuis un serveur externe
+B. Ils sont utilisés pour valider des formulaires uniquement
+C. Ils permettent de gérer et de répondre à des actions de l'utilisateur, comme les clics ou les pressions de touches (Réponse correcte)
+D. Ils servent à changer automatiquement la couleur de fond d'une page
+
+Question 31: Qu'est-ce que le DevOps ?
+A. Un nouveau système d'exploitation pour les développeurs
+B. Une approche qui combine le développement de logiciels et les opérations informatiques pour raccourcir le cycle de développement (Réponse correcte)
+C. Un logiciel de développement de jeux
+D. Un framework de développement web
+
+Question 32: Qu'est-ce que le HTML ?
+A. Hyper Text Markup Language, le standard de conception de contenu pour les pages web (Réponse correcte)
+B. High Tech Management Language
+C. Hyperlink and Text Markup Language
+D. Home Tool Markup Language
+
+Question 33: Qu'est-ce que le lazy loading ?
+A. Une technique pour accélérer le chargement de la page en chargeant les images seulement lorsqu'elles sont visibles à l'écran (Réponse correcte)
+B. Une méthode pour ralentir le chargement des éléments
+C. Une technique de programmation inefficace
+D. Un outil pour différer le chargement des scripts JavaScript
+
+Question 34: Quels sont les avantages du cloud computing pour le développement web ?
+A. Diminution de la sécurité et de la fiabilité
+B. Accès limité aux ressources informatiques
+C. Flexibilité, évolutivité et efficacité de coût (Réponse correcte)
+D. Augmentation des coûts opérationnels
+
+Question 35: Qu'est-ce que Bootstrap et comment l'utilisez-vous ?
+A. Un logiciel antivirus
+B. Un framework front-end pour créer des sites web et des applications web responsives et mobiles-first (Réponse correcte)
+C. Un outil de développement back-end
+D. Un système de gestion de base de données
+
+Question 36: Comment lie-t-on un fichier CSS à un document HTML ?
+A. Avec la balise <link> dans l'en-tête (<head>) du document HTML (Réponse correcte)
+B. Avec la balise <css>
+C. En écrivant le CSS directement dans le fichier HTML
+D. Avec la balise <style> dans le corps du document
+
+Question 37: Comment utilisez-vous les grilles dans le design responsive ?
+A. Pour créer des animations complexes
+B. Pour organiser le contenu en colonnes et lignes qui s'adaptent à la taille de l'écran (Réponse correcte)
+C. Pour afficher des images uniquement
+D. Comme fond d'écran pour le site web
+
+Question 38: Comment ajouter JavaScript à une page web ?
+A. En utilisant la balise <link>
+B. Avec la balise <js>
+C. En utilisant la balise <script> dans le document HTML (Réponse correcte)
+D. En envoyant une requête au serveur
+
+Question 39: Qu'est-ce qu'un serveur web ?
+A. Un logiciel qui permet à un ordinateur de fonctionner comme un serveur web, gérant les requêtes HTTP (Réponse correcte)
+B. Un type de navigateur web
+C. Un ordinateur spécialement conçu pour le stockage
+D. Un outil pour créer des sites web
+
+Question 40: Comment utilisez-vous les outils de développement dans les navigateurs ?
+A. Pour changer le système d'exploitation
+B. Uniquement pour les jeux en ligne
+C. Pour inspecter, tester et déboguer le code de la page web (Réponse correcte)
+D. Pour augmenter la vitesse de connexion Internet
+Je continuerai avec les questions suivantes dans le prochain message.
+
+Question 41: Quelle influence l'intelligence artificielle a-t-elle sur le développement web ?
+A. Elle remplace les développeurs web
+B. Elle est utilisée pour automatiser des tâches complexes et améliorer l'expérience utilisateur (Réponse correcte)
+C. Elle n'a aucun impact sur le développement web
+D. Elle rend le développement web plus lent
+
+Question 42: Comment pouvez-vous améliorer l'expérience utilisateur sur un site web ?
+A. En augmentant la quantité de texte
+B. En utilisant des couleurs vives et des animations complexes
+C. En rendant le site rapide, réactif et facile à naviguer (Réponse correcte)
+D. En limitant l'accès au site web
+
+Question 43: Qu'est-ce que la méthode Agile en gestion de projet web ?
+A. Une approche qui se concentre sur des livraisons rapides et une collaboration constante avec le client (Réponse correcte)
+B. Une méthode basée sur une planification détaillée à long terme
+C. Une stratégie de développement qui évite les tests
+D. Un processus où les développeurs travaillent isolément
+
+Question 44: Qu'est-ce qu'une promesse en JavaScript ?
+A. Une fonction qui retourne toujours true
+B. Un objet utilisé pour des opérations asynchrones, représentant une valeur qui peut être disponible maintenant, dans le futur, ou jamais (Réponse correcte)
+C. Une déclaration conditionnelle en JavaScript
+D. Un type de variable en JavaScript
+
+Question 45: Qu'est-ce qu'un éditeur de code ?
+A. Un outil pour écrire et modifier des textes seulement
+B. Un programme utilisé pour écrire, éditer et déboguer du code (Réponse correcte)
+C. Un logiciel pour la gestion de base de données
+D. Un outil pour la conception graphique
+
+Question 46: Qu'est-ce que SQL ?
+A. Standard Query Language
+B. Structured Query Language, un langage standard pour gérer des bases de données relationnelles (Réponse correcte)
+C. Simple Quality Language
+D. Secure Quick Link
+
+Question 47: Comment gérez-vous les sessions utilisateur dans les applications web ?
+A. En limitant l'accès au site web
+B. À travers des cookies et des sessions qui stockent les informations utilisateur pendant la navigation (Réponse correcte)
+C. En demandant aux utilisateurs de se reconnecter à chaque clic
+D. En utilisant uniquement des bases de données
+
+Vous avez raison, je vais fournir les réponses pour les questions 48, 49 et 50.
+Question 48: Qu'est-ce que la réalité augmentée pourrait-elle être intégrée dans le développement web ?
+A. Elle est utilisée uniquement pour les jeux vidéo et n'a aucun lien avec le web.
+B. Elle pourrait permettre des expériences immersives, comme des essais virtuels de produits ou des visites interactives (Réponse correcte).
+C. Elle rendra le web moins accessible et plus complexe.
+D. La réalité augmentée ne peut pas être intégrée dans le développement web.
+
+Question 49: Quels sont les avantages d'un site web accessible ?
+A. Il est plus complexe à construire et à maintenir.
+B. Il améliore l'expérience utilisateur pour tous, y compris les personnes ayant des besoins spécifiques, et peut améliorer le référencement (Réponse correcte).
+C. Un site accessible est généralement plus lent à charger.
+D. L'accessibilité web n'affecte que les utilisateurs ayant des handicaps visuels.
+
+Question 50: Quels sont les défis du développement mobile ?
+A. Il n'y a pas de différence significative avec le développement web traditionnel.
+B. La nécessité d'optimiser les applications pour une variété de tailles d'écran et de systèmes d'exploitation (Réponse correcte).
+C. Les applications mobiles ne peuvent pas être aussi fonctionnelles que les sites web.
+D. Le développement mobile est limité uniquement aux jeux et applications de divertissement.
+
+Question 51: Qu'est-ce qu'un framework web ?
+A. Un protocole Internet
+B. Un logiciel antivirus
+C. Un ensemble d'outils et de bibliothèques conçus pour aider les développeurs à construire des sites web et des applications web de manière plus efficace (Réponse correcte)
+D. Un type de serveur web
+
+Question 52: Comment simulez-vous différents navigateurs pour tester un site web ?
+A. En changeant la résolution de l'écran
+B. En utilisant des simulateurs et des émulateurs de navigateurs ou des outils de développement intégrés aux navigateurs (Réponse correcte)
+C. En modifiant le code source du site web
+D. Ce n'est pas possible de simuler différents navigateurs
+
+Question 53: Qu'est-ce que le déploiement Docker ?
+A. Un jeu vidéo populaire parmi les développeurs
+B. Une méthode de programmation
+C. L'utilisation de conteneurs Docker pour empaqueter et déployer des applications dans un environnement cohérent et isolé (Réponse correcte)
+D. Un terme pour décrire le processus de mise en ligne d'un site web
+
+Question 54: Comment fonctionnent les media queries en CSS ?
+A. Elles sont utilisées pour créer des animations
+B. Pour appliquer des styles CSS en fonction des caractéristiques du périphérique, comme la largeur de l'écran ou la résolution (Réponse correcte)
+C. Elles servent à interroger des bases de données
+D. Elles sont utilisées pour optimiser les images
+
+Question 55: Qu'est-ce que le test unitaire ?
+A. Un processus où chaque utilisateur teste un site web
+B. Un type de test de performance pour les serveurs web
+C. Un processus de test où des composants individuels d'une application sont testés pour vérifier qu'ils fonctionnent correctement (Réponse correcte)
+D. Un outil pour tester la compatibilité des navigateurs
+
+Question 56: Qu'est-ce que le SEO (Search Engine Optimization) ?
+A. Une technique pour optimiser les performances du serveur
+B. Le processus d'optimisation d'un site web pour améliorer son classement dans les résultats des moteurs de recherche (Réponse correcte)
+C. Une méthode de cryptage pour les sites web
+D. Un langage de programmation spécialisé pour les moteurs de recherche
+
+Question 57: Quels sont les différents types de bases de données ?
+A. Relationnelle, NoSQL, NewSQL et Graphiques (Réponse correcte)
+B. Alphanumérique, Numérique, Textuelle et Image
+C. HTML, CSS, JavaScript et PHP
+D. Local, Serveur, Cloud et Hybride
+
+Question 58: Qu'est-ce que la méthode Scrum ?
+A. Un langage de programmation
+B. Un framework pour la gestion de projet agile, favorisant la collaboration, l'adaptabilité et des cycles de développement itératifs (Réponse correcte)
+C. Une technique de test logiciel
+D. Une stratégie marketing pour le développement web
+
+Question 59: Comment priorisez-vous les fonctionnalités dans un projet web ?
+A. En fonction de leur complexité technique uniquement.
+B. En se basant sur l'avis de l'équipe de développement.
+C. En évaluant l'impact sur l'utilisateur, l'alignement avec les objectifs du projet et la faisabilité (Réponse correcte).
+D. En choisissant aléatoirement.
+
+Question 60: Quels sont les outils de débogage populaires pour le développement web ?
+A. Microsoft Word et Google Docs.
+B. Les outils de développement intégrés aux navigateurs, comme Chrome DevTools et Firefox Developer Tools (Réponse correcte).
+C. Les logiciels de traitement de texte.
+D. Les éditeurs de texte simples comme Notepad.
+
+Question 61: Comment optimisez-vous les images pour le web ?
+A. En augmentant la résolution pour améliorer la qualité
+B. En les redimensionnant, compressant et utilisant des formats appropriés comme JPEG ou PNG pour un chargement rapide (Réponse correcte)
+C. En utilisant exclusivement des formats BMP pour toutes les images
+D. En évitant les images et en utilisant uniquement du texte
+
+Question 62: Quelle est la différence entre let, const et var en JavaScript ?
+A. Aucune différence, ce sont juste des noms différents pour les variables
+B. let permet la réaffectation de valeur, const est pour des valeurs constantes, et var a un scope fonctionnel (Réponse correcte)
+C. var est le seul qui permet la réaffectation de valeur
+D. const est utilisé pour les fonctions, let pour les objets, et var pour les nombres
+
+Question 63: Qu'est-ce que la psychologie des couleurs dans le design web ?
+A. Une tendance à utiliser des couleurs vives pour attirer l'attention
+B. L'utilisation de couleurs spécifiques pour rendre le site plus rapide
+C. L'étude de l'impact des couleurs sur le comportement et les émotions des utilisateurs, influençant la conception de l'interface utilisateur (Réponse correcte)
+D. Une technique de codage pour améliorer le SEO
+
+Question 64: Qu'est-ce que Vue.js ?
+A. Un programme de traitement d'image
+B. Un framework JavaScript progressif pour construire des interfaces utilisateur (Réponse correcte)
+C. Un outil de gestion de base de données
+D. Une bibliothèque CSS
+
+Question 65: Comment prévenir les attaques XSS (Cross-Site Scripting) ?
+A. En désactivant JavaScript sur le site
+B. En utilisant des mots de passe plus forts
+C. En validant et en échappant les données saisies par les utilisateurs pour empêcher l'injection de scripts malveillants (Réponse correcte)
+D. En évitant l'utilisation de formulaires sur le site
+
+Question 66: Comment utilisez-vous les tests d'intégration ?
+A. Pour tester la compatibilité avec différents navigateurs uniquement
+B. Pour vérifier que les différentes parties d'une application fonctionnent ensemble comme prévu (Réponse correcte)
+C. Uniquement pour les tests de performance
+D. Pour tester les fonctions mathématiques dans les applications
+
+Question 67: Qu'est-ce que Ruby on Rails ?
+A. Un jeu vidéo
+B. Un framework de développement web qui fournit une structure pour les bases de données, les services web et les pages web (Réponse correcte)
+C. Un outil de gestion de projet
+D. Une bibliothèque graphique
+
+Question 68: Comment pouvez-vous rendre un site web plus accessible ?
+A. En augmentant la quantité de contenu multimédia
+B. En suivant les directives d'accessibilité, comme l'utilisation de balises alt pour les images et en assurant la navigation au clavier (Réponse correcte)
+C. En limitant le site à des utilisateurs spécifiques
+D. En utilisant uniquement des couleurs vives
+
+Question 69: Quels sont les défis communs dans la gestion de projet web ?
+A. La communication et la collaboration d'équipe, le respect des délais et des budgets, et la gestion des changements (Réponse correcte)
+B. Trouver suffisamment de contenu à publier
+C. La programmation dans plusieurs langages
+D. La sélection des couleurs et des polices
+
+Question 70: Comment créez-vous une fonction en JavaScript ?
+A. En utilisant la balise <function>
+B. Avec function nomDeLaFonction() { // code } (Réponse correcte)
+C. En écrivant simplement le code sans aucune structure spécifique
+D. En utilisant des commandes CSS
+
+Question 71: Qu'est-ce que le CSRF (Cross-Site Request Forgery) ?
+A. Un langage de programmation pour les applications web.
+B. Un type d'attaque qui force un utilisateur connecté à envoyer des requêtes non désirées à une application web (Réponse correcte).
+C. Un outil pour mesurer la performance des requêtes serveur.
+D. Un protocole de communication entre différents sites web.
+
+Question 72: Qu'est-ce qu'Angular ?
+A. Une bibliothèque JavaScript pour l'animation.
+B. Un outil de gestion de base de données.
+C. Un framework de développement pour construire des applications web dynamiques, développé par Google (Réponse correcte).
+D. Un programme pour créer des graphiques en 3D.
+
+Question 73: Comment fonctionne l'intégration continue ?
+A. En déployant une application une fois par an.
+B. Par l'intégration et le test automatiques du code à chaque modification apportée au projet (Réponse correcte).
+C. En intégrant de nouvelles équipes dans le projet.
+D. En changeant continuellement les exigences du projet.
+
+Question 74: Qu'est-ce que le test A/B ?
+A. Un test de performance pour les serveurs.
+B. Un processus où deux versions d'une page web ou d'une application sont comparées pour déterminer laquelle performe mieux (Réponse correcte).
+C. Un test pour vérifier la compatibilité des navigateurs.
+D. Un test de sécurité pour les applications web.
+
+Question 75: Quelle est la différence entre une bibliothèque et un framework ?
+A. Une bibliothèque offre des fonctionnalités spécifiques à utiliser dans le cadre plus large d'un projet, tandis qu'un framework définit la structure globale du projet (Réponse correcte).
+B. Il n'y a aucune différence.
+C. Un framework est utilisé pour les graphiques, une bibliothèque pour les bases de données.
+D. Une bibliothèque est un ensemble de serveurs, un framework est un logiciel.
+
+Question 76: Comment pouvez-vous rendre un site web accessible ?
+A. En limitant l'utilisation des couleurs et des images.
+B. En rendant le contenu accessible à tous, y compris aux personnes handicapées, en suivant les lignes directrices sur l'accessibilité (Réponse correcte).
+C. En demandant aux utilisateurs de télécharger un logiciel spécial.
+D. En utilisant uniquement des textes longs sans images ni vidéos.
+
+Question 77: Qu'est-ce que JavaScript ?
+A. Un outil de conception graphique.
+B. Un langage de programmation principalement utilisé pour créer des scripts côté client dans les pages web (Réponse correcte).
+C. Un système de gestion de base de données.
+D. Un logiciel antivirus.
+
+Question 78: Comment manipuler le DOM en JavaScript ?
+A. En utilisant des requêtes SQL.
+B. En écrivant du HTML uniquement.
+C. En utilisant des méthodes JavaScript pour sélectionner, ajouter, supprimer et modifier des éléments HTML dans la page (Réponse correcte).
+D. En utilisant des feuilles de style CSS.
+
+Question 79: Quelles sont les dernières tendances en développement web ?
+A. L'utilisation exclusive de Flash pour les animations.
+B. Le retour aux designs statiques sans JavaScript.
+C. L'IA, le Machine Learning, le développement progressif d'applications web (PWA) et les interfaces vocales (Réponse correcte).
+D. La diminution de l'utilisation des appareils mobiles.
+
+Question 80: Qu'est-ce qu'AJAX ?
+A. Une marque de nettoyant ménager.
+B. Une nouvelle version de JavaScript.
+C. Une technique pour envoyer et recevoir des données de façon asynchrone sans avoir à recharger la page web (Réponse correcte).
+D. Un type de serveur web.
+
+Question 81: Qu'est-ce qu'un CDN (Content Delivery Network) ?
+A. Un réseau social pour les développeurs web.
+B. Un logiciel de conception de sites web.
+C. Un réseau de serveurs distribués géographiquement qui permet de distribuer des contenus web rapidement aux utilisateurs (Réponse correcte).
+D. Une base de données pour stocker des images.
+
+Question 82: Qu'est-ce que Git ?
+A. Un logiciel de montage vidéo.
+B. Un langage de programmation.
+C. Un système de contrôle de version permettant de gérer et de suivre les modifications du code source (Réponse correcte).
+D. Un outil de création de graphiques.
+
+Question 83: Comment pouvez-vous sécuriser un site web ?
+A. En rendant tout le contenu privé.
+B. En utilisant des mots de passe simples pour les utilisateurs.
+C. En appliquant des pratiques de sécurité telles que la validation des entrées, les pare-feu, le chiffrement et les mises à jour régulières (Réponse correcte).
+D. En supprimant les cookies.
+
+Question 84: Qu'est-ce que l'authentification à deux facteurs (2FA) ?
+A. Une méthode pour doubler la vitesse de chargement des pages web.
+B. Un processus où l'utilisateur doit fournir deux types d'informations différentes pour vérifier son identité, généralement un mot de passe et un code temporaire (Réponse correcte).
+C. Une méthode pour doubler le nombre de pages web sur un site.
+D. Un système de gestion de base de données.
+
+Question 85: Qu'est-ce que le modèle MVC (Modèle-Vue-Contrôleur) en développement web ?
+A. Un modèle de conception pour les sites de commerce électronique.
+B. Une approche de développement qui sépare l'application en trois composants : le modèle (les données), la vue (l'interface utilisateur) et le contrôleur (la logique de traitement) (Réponse correcte).
+C. Un langage de programmation.
+D. Un modèle pour la gestion de projet.
+
+Question 86: Quelle est la différence entre HTTP et HTTPS ?
+A. Il n'y a pas de différence.
+B. HTTP est sécurisé tandis que HTTPS ne l'est pas.
+C. HTTP est utilisé pour les sites web, HTTPS pour les applications mobiles.
+D. HTTP est non sécurisé, tandis que HTTPS utilise un protocole de transfert sécurisé pour crypter les données (Réponse correcte).
+Question 87: Qu'est-ce qu'une API (Interface de Programmation Applicative) ?
+
+A. Un logiciel de retouche photo.
+B. Un ensemble de règles pour écrire du code.
+C. Un moyen pour deux applications de communiquer et d'échanger des données (Réponse correcte).
+D. Une méthode pour créer des animations en ligne.
+
+Question 88: Comment pouvez-vous améliorer la vitesse de chargement d'un site web ?
+A. En ajoutant plus de contenu multimédia.
+B. En utilisant un hébergement web gratuit.
+C. En optimisant les images, en utilisant la mise en cache, en réduisant le nombre de requêtes HTTP et en choisissant un bon serveur d'hébergement (Réponse correcte).
+D. En utilisant des polices de caractères personnalisées pour le texte.
+
+Question 89: Quelle est la signification de "Responsive Web Design" ?
+A. Un design de site web sans aucune image.
+B. Un design qui s'adapte automatiquement à la taille de l'écran de l'appareil utilisé, offrant ainsi une expérience utilisateur optimale sur tous les dispositifs (Réponse correcte).
+C. Un design exclusivement pour les applications mobiles.
+D. Un design en noir et blanc.
+
+Question 90: Qu'est-ce que le DevOps ?
+A. Un langage de programmation.
+B. Une méthodologie de développement qui encourage la collaboration entre les équipes de développement et d'opérations pour améliorer la livraison logicielle et l'efficacité des processus (Réponse correcte).
+C. Un type de serveur web.
+D. Un outil de gestion de projet.
+
+Question 91: Qu'est-ce que le modèle OSI (Open Systems Interconnection) ?
+A. Un modèle de gestion de projet.
+B. Un modèle de conception de site web.
+C. Un modèle de référence pour les communications réseau qui divise les fonctions de communication en sept couches (Réponse correcte).
+D. Un modèle de cryptographie.
+
+Question 92: Quelle est la différence entre HTTP et WebSocket ?
+A. Il n'y a aucune différence.
+B. HTTP est utilisé pour les e-mails, WebSocket pour les sites web.
+C. HTTP est basé sur une communication de type requête/réponse, tandis que WebSocket permet une communication bidirectionnelle en temps réel (Réponse correcte).
+D. WebSocket est une version obsolète de HTTP.
+
+Question 93: Qu'est-ce que la sécurité SSL/TLS ?
+A. Un outil de débogage pour les navigateurs web.
+B. Un protocole de sécurité qui permet de crypter les données échangées entre un navigateur web et un serveur web, assurant ainsi la confidentialité et l'intégrité des données (Réponse correcte).
+C. Une méthode pour bloquer l'accès à un site web.
+D. Une technique pour créer des sites web en Flash.
+
+Question 94: Quelle est la signification de l'acronyme SQL ?
+A. Système de Quotas et de Licences
+B. Structure de Quorum de Logiciel
+C. Langage de Requête Structuré (Réponse correcte)
+D. Logiciel de Gestion de Projets
+
+Question 95: Qu'est-ce que la méthode Agile en développement logiciel ?
+A. Une méthode pour coder rapidement sans plan préalable.
+B. Une approche itérative de développement qui favorise la collaboration, la flexibilité et la livraison fréquente de logiciels fonctionnels (Réponse correcte).
+C. Une méthode pour tester rapidement le code.
+D. Une approche de développement basée sur un plan rigide.
+
+Question 96: Qu'est-ce que le W3C (World Wide Web Consortium) ?
+A. Un navigateur web populaire.
+B. Une organisation internationale qui développe des normes et des recommandations pour le World Wide Web, y compris les spécifications HTML et CSS (Réponse correcte).
+C. Un langage de programmation.
+D. Une société de développement web.
+
+Question 97: Qu'est-ce qu'un CMS (Système de Gestion de Contenu) ?
+A. Un outil de gestion de base de données.
+B. Un navigateur web.
+C. Une plateforme logicielle qui permet de créer, gérer et publier du contenu sur un site web de manière conviviale, sans nécessiter de connaissances en programmation (Réponse correcte).
+D. Un modèle de sécurité pour les sites web.
+
+Question 98 (Nouvelle): Qu'est-ce que le DNS (Domain Name System) ?
+A. Un langage de programmation.
+B. Un protocole de sécurité pour les communications en ligne.
+C. Un système de gestion de base de données.
+D. Un système de noms de domaine qui traduit les noms de domaine en adresses IP (Réponse correcte).
+
+Question 99: Qu'est-ce que le test de régression ?
+A. Un test pour vérifier la compatibilité des navigateurs.
+B. Un test pour déterminer la qualité du code source.
+C. Un test pour s'assurer qu'une modification récente du code n'a pas introduit de régressions ou d'erreurs dans les fonctionnalités existantes (Réponse correcte).
+D. Un test pour mesurer la performance d'un site web.
+
+Question 100: Comment pouvez-vous améliorer la sécurité d'un site web ?
+A. En partageant les informations de connexion avec tout le monde.
+B. En utilisant des mots de passe faibles.
+C. En appliquant des pratiques de sécurité telles que la validation des entrées, les pare-feu, le chiffrement, les mises à jour régulières et la sensibilisation des utilisateurs à la sécurité (Réponse correcte).
+D. En désactivant complètement les fonctions de sécurité.
