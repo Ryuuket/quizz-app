@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  postgresdb:
+    image: postgres
+    environment:
+      - POSTGRES_USER=adminuser
+      - POSTGRES_PASSWORD=adminpassword
+      - POSTGRES_DB=mydatabase
+    ports:
+      - "5432:5432"
+    volumes:
+      - db:/var/lib/postgresql/data
+      - ./back/database/SQL/:/docker-entrypoint-initdb.d/
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@example.com
+      - PGADMIN_DEFAULT_PASSWORD=adminpassword
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgresdb
+
+  vite_docker:
+    image: node:alpine
+    container_name: vite_docker
+    entrypoint: /bin/sh
+    ports:
+      - "5173:5173"
+    working_dir: /srv/app
+    volumes:
+      - type: bind
+        source: ./
+        target: /srv/app
+    tty: true
+
+  app:
+    depends_on:
+      - postgresdb
+    build: ./
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_HOST=postgresdb
+      - DB_USER=myuser
+      - DB_PASSWORD=mypassword
+      - DB_NAME=mydatabase
+      - DB_PORT=5432
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./src:/usr/src/app/src
+
+volumes:
+  db:
