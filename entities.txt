@@ -1,0 +1,16 @@
+Entities that might be relevantfor our project : 
+
+Candidat with its own set of entities such as : 
+
+- Name
+- PlayerId
+- TotalPoints
+- QuestionId // for those the candidate gave a good answer
+
+Question with :
+
+- QuestionId
+- Number
+- Description
+- Answer
+- Points // if well answered
