@@ -1,4 +1,4 @@
-Entities that might be relevantfor our project : 
+Entities that might be relevant for our project : 
 
 Candidat with its own set of entities such as : 
 
