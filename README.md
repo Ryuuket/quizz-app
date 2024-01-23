@@ -31,3 +31,11 @@ Lire la partie overview et la partie fundamentals
     - dossier dto
 - dossier db avec la base de données sql
 - fichier server.ts
+
+## Pour lancer Docker :
+// Compose-up docker
+docker-compose up
+
+// Forcer le rebuild
+docker-compose up --force-recreate --build
+
