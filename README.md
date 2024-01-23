@@ -39,3 +39,30 @@ docker-compose up
 // Forcer le rebuild
 docker-compose up --force-recreate --build
 
+CREATE TABLE "player" (
+    player_id SERIAL PRIMARY KEY,
+    player_name VARCHAR(50) NOT NULL,
+    player_email VARCHAR(50) NOT NULL,
+    player_password VARCHAR(50) NOT NULL,
+    player_score INT,
+    player_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE "question" (
+    question_id SERIAL PRIMARY KEY,
+    question_content VARCHAR(200)
+);
+
+CREATE TABLE "answer" (
+    answer_id SERIAL PRIMARY KEY,
+    answer_content VARCHAR(200),
+    answer_boolean BOOLEAN,
+    question_id SERIAL REFERENCES question(question_id)
+);
+
+CREATE TABLE "history" (
+    history_id SERIAL PRIMARY KEY,
+    player_id SERIAL REFERENCES player(player_id),
+    question_id SERIAL REFERENCES question(question_id),
+    PRIMARY KEY (player_id, question_id)
+);
