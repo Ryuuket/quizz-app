@@ -2,15 +2,27 @@ Entities that might be relevantfor our project :
 
 Candidat with its own set of entities such as : 
 
-- Name
-- PlayerId
-- TotalPoints
-- QuestionId // for those the candidate gave a good answer
+- Name : string
+- PlayerId : UUID
+- TotalPoints : number
+- email : string
+- password: string
 
 Question with :
 
-- QuestionId
-- Number
-- Description
-- Answer
-- Points // if well answered
+- QuestionId : UUID
+- Question : string
+- Points : number // if well answered
+
+Answer with : 
+
+- QuestionId : UUID
+- Answer : string //answer
+- AnswerId : UUID
+- isCorrect : boolean
+
+
+History with :
+
+- PlayerId : UUID
+- QuestionId : UUID
