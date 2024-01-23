@@ -29,7 +29,7 @@
     font-size: 20px;
     text-decoration: none;
     color: white;
-    background-color: #792d75;
+    background-color: #2d3279;
     border-radius: 5px;
     transition: background-color 0.3s;
   }
