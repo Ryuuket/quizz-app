@@ -31,7 +31,6 @@
     width: 60%;  /* Largeur totale */
     height: 100%;  /* Hauteur totale */
     background-image: url("./lib/homepage.jpg");  /* Image de fond */
-    background-size: 100% 100%;  /* Taille de l'image de fond */
     background-position: center;  /* Positionnement de l'image de fond */
 
   }
@@ -46,7 +45,10 @@
     border: none; /* Pas de bordure */
     cursor: pointer; /* Curseur de souris */
     display: block;  /* Affichage en bloc */
-    transform: translateX(400px) translateY(561px); /* Positionnement du bouton */
+    transform: translateX(400px) translateY(561px)
+  }
+    .buttonStart:hover {
+    transform: translateX(400px) translateY(561px) scale(1.2) ; /* Positionnement du bouton */
   }
   .buttonLogin { 
 
@@ -60,7 +62,9 @@
     display: block;
     transform: translateX(200px) translateY(561px);
   }
-
+    .buttonLogin:hover {
+      transform: translateX(200px) translateY(561px) scale(1.2); /* Positionnement du bouton */
+  }
     .buttonSignin {
 
     background-image: url("./lib/signin.png");
@@ -73,6 +77,8 @@
     display: block;
     transform: translateX(600px) translateY(448px);
   } 
-
+  .buttonSignin:hover {
+      transform: translateX(600px) translateY(448px) scale(1.2) ; /* Positionnement du bouton */
+  }
   
 </style>
