@@ -4,23 +4,21 @@
   const navigate = (path: string) => (url = path);  // Cette fonction modifie la variable 'url' en fonction du chemin passé
 </script>
 
-<!-- Structure HTML avec le fond et les boutons -->
 <div class="background">  <!-- Div pour le fond de la page -->
 
-    <!-- Bouton START -->
-    <div>
-      <button class="button1" on:click={() => navigate("/start")}>START</button>  <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
+
+    ><div>
+      <button class="buttonStart" on:click={() => navigate("/start")}></button>  <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
     </div>
 
-    <!-- Bouton Login -->
-    <div>
-      <button class="button2" on:click={() => navigate("/login")}>Login</button>  <!-- Bouton Login qui appelle la fonction navigate avec le chemin "/login" -->
+    ><div>
+      <button class="buttonLogin" on:click={() => navigate("/starLogin")}></button>  <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
     </div>
 
-    <!-- Bouton Sign In -->
-    <div>
-      <button class="button3" on:click={() => navigate("/signin")}>Sign In</button>  <!-- Bouton Sign In qui appelle la fonction navigate avec le chemin "/signin" -->
+    ><div>
+      <button class="buttonSignin" on:click={() => navigate("/startSignin")}></button>  <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
     </div>
+
 </div>
 
 <!-- Styles CSS pour les éléments HTML -->
@@ -30,58 +28,51 @@
     position: absolute;  /* Positionnement absolu */
     top: 0;  /* Haut de la page */
     left: 0;  /* Gauche de la page */
-    width: 100%;  /* Largeur totale */
+    width: 60%;  /* Largeur totale */
     height: 100%;  /* Hauteur totale */
     background-image: url("./lib/homepage.jpg");  /* Image de fond */
     background-size: 100% 100%;  /* Taille de l'image de fond */
     background-position: center;  /* Positionnement de l'image de fond */
+
   }
 
-  .button1 {
-    /* Style commun pour tous les boutons */
-    display: inline-block;  /* Affichage en bloc inline */
-    text-align: center;  /* Alignement du texte au centre */
-    vertical-align: middle;  /* Alignement vertical au milieu */
-    padding: 0.9% 7%;  /* Remplissage autour du texte */
-    border: 7px solid #2c87bb;  /* Bordure solide */
-    border-radius: 9px;  /* Rayon de la bordure arrondie */
-    background: #4f24de;  /* Couleur de fond */
-    font: normal normal bold 26px arial;  /* Style de police */
-    color: #ffffff;  /* Couleur de police */
-    text-decoration: none;  /* Pas de décoration du texte */
-    text-transform: uppercase;  /* Transformation du texte en majuscules */
-    transform: translateX(-10px) translateY(761px);
-  }
-  .button2 {
-    /* Style commun pour tous les boutons */
-    display: inline-block;  /* Affichage en bloc inline */
-    text-align: center;  /* Alignement du texte au centre */
-    vertical-align: middle;  /* Alignement vertical au milieu */
-    padding: 0.1px 5%;  /* Remplissage autour du texte */
-    border: 7px solid #2c87bb;  /* Bordure solide */
-    border-radius: 9px;  /* Rayon de la bordure arrondie */
-    background: #482aad;  /* Couleur de fond */
-    font: normal normal bold 26px arial;  /* Style de police */
-    color: #ffffff;  /* Couleur de police */
-    text-decoration: none;  /* Pas de décoration du texte */
-    text-transform: uppercase;  /* Transformation du texte en majuscules */
-    transform: translateX(-223px) translateY(821px);
-    }
+  .buttonStart {
 
-  .button3 {
-        /* Style commun pour tous les boutons */
-        display: inline-block;  /* Affichage en bloc inline */
-    text-align: center;  /* Alignement du texte au centre */
-    vertical-align: middle;  /* Alignement vertical au milieu */
-    padding: 0.1px 5%;  /* Remplissage autour du texte */
-    border: 7px solid #2c87bb;  /* Bordure solide */
-    border-radius: 9px;  /* Rayon de la bordure arrondie */
-    background: #4f24de;  /* Couleur de fond */
-    font: normal normal bold 26px arial;  /* Style de police */
-    color: #ffffff;  /* Couleur de police */
-    text-decoration: none;  /* Pas de décoration du texte */
-    text-transform: uppercase;  /* Transformation du texte en majuscules */
-    transform: translateX(225px) translateY(776px);
+    background-image: url("./lib/start.png"); /* Image de fond */
+    background-color: transparent;  /* Couleur de fond transparente */
+    width: 250px; /* Largeur */
+    height: 100px; /* Hauteur */
+    background-size: cover; /* Taille de l'image de fond */
+    border: none; /* Pas de bordure */
+    cursor: pointer; /* Curseur de souris */
+    display: block;  /* Affichage en bloc */
+    transform: translateX(400px) translateY(561px); /* Positionnement du bouton */
   }
+  .buttonLogin { 
+
+    background-image: url("./lib/login.png");
+    background-color: transparent;
+    width: 250px;
+    height: 100px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: block;
+    transform: translateX(200px) translateY(561px);
+  }
+
+    .buttonSignin {
+
+    background-image: url("./lib/signin.png");
+    background-color: transparent;
+    width: 250px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: block;
+    transform: translateX(600px) translateY(448px);
+  } 
+
   
 </style>
