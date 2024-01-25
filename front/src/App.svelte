@@ -1,92 +1,74 @@
 <!-- Svelte script pour la navigation -->
 <script lang="ts">
+  import Head3d from "./lib/components/ui/typo/heading/Head3d.svelte";
   let url = "";
   const navigate = (path: string) => (url = path); // Cette fonction modifie la variable 'url' en fonction du chemin passé
 </script>
 
-<div class="background">
-  <!-- Div pour le fond de la page -->
+<div class="app-container">
+  <div class="background"></div>
 
-  >
+  <div id="question">
+
+    <Head3d>Question pour un développeur</Head3d>
+
+  </div>
+
   <div>
-    <button class="buttonStart" on:click={() => navigate("/start")}></button>
+    <button class="buttonStart" on:click={() => navigate("/start")}>Start</button>
     <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
   </div>
 
-  >
   <div>
     <button class="buttonLogin" on:click={() => navigate("/starLogin")}
-    ></button>
+    >signin</button>
     <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
   </div>
 
-  >
   <div>
     <button class="buttonSignin" on:click={() => navigate("/startSignin")}
-    ></button>
-    <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
+    >signup</button>
   </div>
 </div>
 
 <!-- Styles CSS pour les éléments HTML -->
 <style>
+
+#question {
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+  .app-container {
+    display: flex; /* Affichage en ligne */
+    flex-direction: column; /* Direction de la ligne */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    min-height: 100vh; /* Hauteur de l'élément */
+    min-width: 100vw; /* Largeur de l'élément */
+  }
+  /*h1 {
+    color: rgb(255, 136, 0);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }*/
   .background {
-    /* Style pour le fond de la page */
-    position: absolute; /* Positionnement absolu */
-    top: 0; /* Haut de la page */
-    left: 0; /* Gauche de la page */
-    width: 60%; /* Largeur totale */
-    height: 100%; /* Hauteur totale */
+    position: fixed;
+    top: 0;
+    right: 0 ;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+
     background-image: url("./lib/homepage.jpg"); /* Image de fond */
-    background-position: center; /* Positionnement de l'image de fond */
+    background-position: center; 
+    background-size: absolute; 
+    background-repeat: no-repeat;
   }
 
-  .buttonStart {
-    background-image: url("./lib/start.png"); /* Image de fond */
-    background-color: transparent; /* Couleur de fond transparente */
-    width: 250px; /* Largeur */
-    height: 100px; /* Hauteur */
-    background-size: cover; /* Taille de l'image de fond */
-    border: none; /* Pas de bordure */
-    cursor: pointer; /* Curseur de souris */
-    display: flex; /* Affichage en ligne */
-    transform: translateX(400px) translateY(561px); /* Positionnement du bouton */
-    justify-content: center; /* Centrage horizontal */
-    align-items: center; /* Centrage vertical */
-  }
-  .buttonStart:hover {
-    transform: translateX(400px) translateY(561px) scale(1.2); /* Positionnement du bouton */
-  }
-  .buttonLogin {
-    background-image: url("./lib/login.png"); /* Image de fond */
-    background-color: transparent; /* Couleur de fond transparente */
-    width: 250px; /* Largeur */
-    height: 100px; /* Hauteur */
-    background-size: cover; /* Taille de l'image de fond */
-    border: none; /* Pas de bordure */
-    cursor: pointer; /* Curseur de souris */
-    display: flex; /* Affichage en ligne */
-    transform: translateX(200px) translateY(561px); /* Positionnement du bouton */
-    justify-content: center; /* Centrage horizontal */
-    align-items: center; /* Centrage vertical */
-  }
-  .buttonLogin:hover {
-    transform: translateX(200px) translateY(561px) scale(1.2); /* Positionnement du bouton */
-  }
-  .buttonSignin {
-    background-image: url("./lib/signin.png"); /* Image de fond */
-    background-color: transparent; /* Couleur de fond transparente */
-    width: 250px; /* Largeur */
-    height: 100px; /* Hauteur */
-    background-size: cover; /* Taille de l'image de fond */
-    border: none; /* Pas de bordure */
-    cursor: pointer; /* Curseur de souris */
-    display: flex; /* Affichage en ligne */
-    transform: translateX(600px) translateY(448px); /* Positionnement du bouton */
-    justify-content: center; /* Centrage horizontal */
-    align-items: center; /* Centrage vertical */
-  }
-  .buttonSignin:hover {
-    transform: translateX(600px) translateY(448px) scale(1.2); /* Positionnement du bouton */
-  }
 </style>
