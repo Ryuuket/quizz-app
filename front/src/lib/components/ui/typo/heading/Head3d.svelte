@@ -28,17 +28,18 @@ import { onMount, onDestroy } from 'svelte';
 </script>
 
 <figure style:transform="perspective(600px) rotateY({offsetX}deg) rotateX({offsetY}deg)">
-    <p><slot /><p/>
-    <p><slot /><p/><p>
-    <slot /><p/><p>
-    <slot /><p/><p>
-    <slot /><p/>
+    <h1>Questions pour un développeur</h1>
+    <h1>Questions pour un développeur</h1>
+    <h1>Questions pour un développeur</h1>
+    <h1>Questions pour un développeur</h1>
+    <h1>Questions pour un développeur</h1>
+    <h1>Questions pour un développeur</h1>
   </figure>
   
   <style>
     @import url(https://fonts.googleapis.com/css?family=Concert+One);
   
-    p {
+    h1 {
       animation: glow 10s ease-in-out infinite;
     }
   
@@ -64,7 +65,7 @@ import { onMount, onDestroy } from 'svelte';
       }
     }
   
-    p {
+    h1 {
       display: flex;
       width: 100%;
       height: 100%;
@@ -83,13 +84,13 @@ import { onMount, onDestroy } from 'svelte';
     @keyframes glow {
       0%,
       100% {
-        text-shadow: 0 0 30px red;
+        text-shadow: 0 0 30px rgb(187, 255, 0);
       }
       25% {
         text-shadow: 0 0 30px orange;
       }
       50% {
-        text-shadow: 0 0 30px forestgreen;
+        text-shadow: 0 0 30px rgb(22, 189, 22);
       }
       75% {
         text-shadow: 0 0 30px cyan;

@@ -10,7 +10,7 @@
 
   <div id="question">
 
-    <Head3d>Question pour un développeur</Head3d>
+    <Head3d>Questions pour un développeur</Head3d>
 
   </div>
 
