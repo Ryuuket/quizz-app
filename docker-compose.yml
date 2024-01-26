@@ -7,7 +7,7 @@ services:
     container_name: vite
     command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
     volumes:
-      - ./front/src:/usr/src/app/src
+      - ./front/src:/app/src
     ports:
       - "5173:5173"
 
@@ -21,7 +21,7 @@ services:
       - 5432:5432
     volumes:
       - db:/var/lib/postgresql/data
-      - ./database/SQL/:/docker-entrypoint-initdb.d/
+      - ./back/database/SQL/:/docker-entrypoint-initdb.d/
 
   pgadmin:
     image: dpage/pgadmin4
@@ -41,14 +41,14 @@ services:
       - "3000:3000"
     environment:
       - DB_HOST=postgresdb
-      - DB_USER=myuser
-      - DB_PASSWORD=mypassword
+      - DB_USER=adminuser
+      - DB_PASSWORD=adminpassword
       - DB_NAME=mydatabase
       - DB_PORT=5432
     stdin_open: true
     tty: true
     volumes:
-      - ./back/src:/usr/src/app/src
+      - ./back/src:/app/src
 
 volumes:
   db:

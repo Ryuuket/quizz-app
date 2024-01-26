@@ -1,17 +1,26 @@
-FROM node:18-alpine
+FROM node:20-alpine3.19 AS base
 
-WORKDIR /app
 
+FROM base AS builder
+WORKDIR /usr/src/app
 COPY package*.json ./
-
 RUN npm install
+COPY . .
+RUN npm run gcp-build
 
-COPY --chown=node:node . .
-
-RUN npm run build
-
+FROM base
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install --only=production
+RUN npx prisma generate
+COPY --from=builder /usr/src/app/dist ./dist
 EXPOSE 3000
+CMD ["node", "dist/main"]
 
-ENV HOST=0.0.0.0 PORT=3000
-
-CMD ["npm", "start"]
+FROM base as dev
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["npm", "run", "start:dev"]

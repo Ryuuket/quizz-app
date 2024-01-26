@@ -5,9 +5,9 @@ import { Player } from './player.entity';
 
 @Injectable()
 export class PlayerService {
-    constructor(
+      constructor(
         @InjectRepository(Player)
-        private readonly playerRepository: Repository<Player>
+        private readonly playerRepository: Repository<Player>,
       ) {}
     
       create(player: Player): Promise<Player> {

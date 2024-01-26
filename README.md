@@ -66,3 +66,5 @@ CREATE TABLE "history" (
     question_id SERIAL REFERENCES question(question_id),
     PRIMARY KEY (player_id, question_id)
 );
+
+    command: ["./wait-for-it.sh", "postgresdb:5432", "--", "npm", "start"]
