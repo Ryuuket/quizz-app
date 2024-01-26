@@ -6,13 +6,12 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-RUN npm run gcp-build
+RUN npm run build
 
 FROM base
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install --only=production
-RUN npx prisma generate
 COPY --from=builder /usr/src/app/dist ./dist
 EXPOSE 3000
 CMD ["node", "dist/main"]
