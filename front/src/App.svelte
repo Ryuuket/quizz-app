@@ -14,21 +14,21 @@
 
   <div>
     <button class="buttonStart" on:click={() => navigate("/start")}
-      ><span>start</span></button
+      >start</button
     >
     <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
   </div>
 
   <div>
     <button class="buttonSignin" on:click={() => navigate("/signin")}
-      ><span>signin</span></button
+      >signin</button
     >
     <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
   </div>
 
   <div>
     <button class="buttonSignup" on:click={() => navigate("/signup")}
-      >><span>signup</span></button
+      >signup</button
     >
     <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
   </div>
@@ -61,15 +61,10 @@
     bottom: 0; /* Positionnement en bas */
     z-index: -1; /* Positionnement en arrière-plan */
 
-    background-color: rgb(53, 104, 53); /* Ajout d'un fond vert */
     background-image: url("./lib/homepage.jpg"); /* Image de fond */
     background-position: center; /* Positionnement de l'image */
     background-size: absolute; /* Taille de l'image de fond */
     background-repeat: no-repeat; /* Pas de répétition de l'image */
-  }
-
-  .buttonStart > span {
-    display: none;
   }
 
   .buttonStart {
@@ -89,10 +84,6 @@
     transform: translateX(0px) translateY(460px) scale(1.2); /* Positionnement du bouton */
   }
 
-  .buttonSignin > span { 
-    display: none;
-  }
-
   .buttonSignin {
     background-image: url("./lib/signin.png"); /* Image de fond */
     background-color: transparent; /* Couleur de fond transparente */
@@ -108,10 +99,6 @@
   }
   .buttonSignin:hover {
     transform: translateX(-200px) translateY(500px) scale(1.2); /* Positionnement du bouton */
-  }
-
-  .buttonSignup > span { 
-    display: none; 
   }
 
   .buttonSignup {
