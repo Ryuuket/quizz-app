@@ -3,8 +3,17 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm'
 @Entity()
 export class Player {
   @PrimaryGeneratedColumn()
-  id: number
+  playerId: number;
 
-  @Column()
-  name: string
+  @Column({nullable: true})
+  playerName: string;
+
+  @Column({nullable: true})
+  playerEmail: string;
+
+  @Column({nullable: true})
+  playerPassword: string;
+
+  @Column({nullable: true})
+  playerScore: number;
 }
