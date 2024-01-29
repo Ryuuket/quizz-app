@@ -1,5 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
-import { History } from 'src/history/history.entity'
+import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 @Entity()
 export class Player {
@@ -17,7 +16,4 @@ export class Player {
 
   @Column({nullable: true})
   playerScore: number;
-
-  @OneToMany(() => History, (history) => history.player)
-  histories: History[];
 }
