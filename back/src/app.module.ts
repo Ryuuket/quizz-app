@@ -1,11 +1,17 @@
 import { Module } from '@nestjs/common';
-import { PlayerModule } from './player/player.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { QuestionModule } from './question/question.module';
+
+import { PlayerModule } from './player/player.module';
+import { HistoryModule } from './history/history.module';
+import { AnswerModule } from './answer/answer.module';
 
 @Module({
   imports: [
     PlayerModule,
+    QuestionModule,
+    AnswerModule,
+    HistoryModule,
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: process.env.DB_HOST || 'localhost',
@@ -17,7 +23,6 @@ import { QuestionModule } from './question/question.module';
       synchronize: true,
       autoLoadEntities: true,
     }),
-    QuestionModule,
   ],
 })
 export class AppModule {}
