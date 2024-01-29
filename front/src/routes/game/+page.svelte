@@ -24,7 +24,7 @@
     justify-content: center; /* Pour centrer les boutons */
     border-radius: 10px; /* Pour arrondir les bords */
     transition: 1s; /* Pour ajouter une transition */
-    padding: 10px; /* Pour ajouter un peu d'espace entre les bords et les boutons */
+    padding: 400px; /* Pour ajouter un peu d'espace entre les bords et les boutons */
     overflow: hidden; /* Pour cacher les éléments qui dépassent */
   }
 
@@ -32,7 +32,7 @@
     font-size: 50px; /* Taille du texte */
     background-color: transparent; /* Fond transparent */
     border: none; /* Suppression du style par défaut */
-    padding: 0px; /* Pour ajouter un peu d'espace entre le texte et les bords */
+    padding: 30px; /* Pour ajouter un peu d'espace entre le texte et les bords */
     color: white; /* Texte en blanc pour le contraste */
     display: flex; /* Pour aligner le texte et l'icône horizontalement */
     position: relative; /* Pour positionner l'icône */
@@ -47,15 +47,15 @@
   .value:focus { /* Style au focus */
     display: flex; /* Pour afficher l'icône */
     box-sizing: border-box; /* Pour que la taille du bouton ne change pas au survol */
-    border: 2px solid #1a1f24; 
+    border: 0px solid #1a1f24; 
     color: #637185; /* Texte en gris */
   }
 
   .value:focus, /* Style au focus */
   .value:active { /* Style au clic */
-    background-color: #24241a; /* Fond vert */
+ 
     outline: none; /* Suppression du style par défaut */
-    margin-left: 17px; /* Pour décaler le texte */
+    margin-left: 27px; /* Pour décaler le texte */
   }
 
   .value::before { /* Style de l'icône */
@@ -88,6 +88,7 @@
 </style>
 
 <main>
+
   <div class="input">
     <button class="value">
 
