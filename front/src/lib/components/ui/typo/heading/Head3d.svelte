@@ -19,35 +19,39 @@
   }
 
   onMount(() => {
-    document.addEventListener("mousemove", mouseMove);
+    if (typeof window !== "undefined") {
+      document.addEventListener("mousemove", mouseMove);
+    }
   });
 
   onDestroy(() => {
-    document.removeEventListener("mousemove", mouseMove);
+    if (typeof window !== "undefined") {
+      document.removeEventListener("mousemove", mouseMove);
+    }
   });
 </script>
 
 <figure
   style:transform="perspective(600px) rotateY({offsetX}deg) rotateX({offsetY}deg)"
 >
-  <h1><slot/></h1>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-  <span aria-hidden="true"><slot/></span>
-
+  <h1><slot /></h1>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
+  <span aria-hidden="true"><slot /></span>
 </figure>
 
 <style>
   @import url(https://fonts.googleapis.com/css?family=Concert+One);
 
-  h1, span {
+  h1,
+  span {
     animation: glow 10s ease-in-out infinite;
   }
 
@@ -72,11 +76,13 @@
     }
   }
 
-  h1, span {
+  h1,
+  span {
     display: flex;
     width: 100%;
     height: 100%;
     font-size: 3em;
+    margin: 0;
     font-family: "Concert One";
     text-transform: uppercase;
     position: absolute;
