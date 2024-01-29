@@ -1,10 +1,10 @@
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 @Entity()
-export class Player {
+export class Question {
   @PrimaryGeneratedColumn()
   id: number;
 
   @Column()
-  name: string;
+  content: string;
 }

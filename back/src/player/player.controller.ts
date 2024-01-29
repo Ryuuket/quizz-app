@@ -4,15 +4,15 @@ import { Player } from './player.entity';
 
 @Controller('players')
 export class PlayerController {
-    constructor(private readonly playerService: PlayerService) {}
+  constructor(private readonly playerService: PlayerService) {}
 
-    @Get()
-    getPlayers() {
-        return this.playerService.findAll()
-    }
+  @Get()
+  getPlayers() {
+    return this.playerService.findAll();
+  }
 
-    @Post()
-    createPlayer(@Body() body: Player) {
-        return this.playerService.create(body)
-    }
+  @Post()
+  createPlayer(@Body() body: Player) {
+    return this.playerService.create(body);
+  }
 }
