@@ -1,30 +1,28 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-
-import { Player } from './player/player.entity';
-import { Answer } from './answer/answer.entity';
-import { History } from './history/history.entity';
+import { QuestionModule } from './question/question.module';
 
 import { PlayerModule } from './player/player.module';
-import { AnswerModule } from './answer/answer.module';
 import { HistoryModule } from './history/history.module';
+import { AnswerModule } from './answer/answer.module';
 
 @Module({
   imports: [
     PlayerModule,
+    QuestionModule,
     AnswerModule,
     HistoryModule,
     TypeOrmModule.forRoot({
-        type: 'postgres',
-        host: process.env.DB_HOST || 'localhost',
-        port: parseInt(process.env.DB_PORT, 10) || 5432,
-        username: process.env.DB_USER || 'adminuser',
-        password: process.env.DB_PASSWORD || 'adminpassword',
-        database: process.env.DB_NAME || 'mydatabase',
-        entities: [Player, Answer, History],
-        synchronize: true,
-        autoLoadEntities: true,
-      }),
-    ],
+      type: 'postgres',
+      host: process.env.DB_HOST || 'localhost',
+      port: parseInt(process.env.DB_PORT, 10) || 5432,
+      username: process.env.DB_USER || 'adminuser',
+      password: process.env.DB_PASSWORD || 'adminpassword',
+      database: process.env.DB_NAME || 'mydatabase',
+      entities: [__dirname + '/**/*.entity{.ts,.js}'],
+      synchronize: true,
+      autoLoadEntities: true,
+    }),
+  ],
 })
 export class AppModule {}

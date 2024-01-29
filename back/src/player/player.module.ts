@@ -4,11 +4,10 @@ import { PlayerController } from './player.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Player } from './player.entity';
 
-
 @Module({
   imports: [TypeOrmModule.forFeature([Player])],
   providers: [PlayerService],
-  controllers: [PlayerController]
+  controllers: [PlayerController],
 })
 export class PlayerModule {}
 /*TypeOrmModule.forFeature([Player])*/
