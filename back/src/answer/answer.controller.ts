@@ -4,15 +4,15 @@ import { Answer } from './answer.entity';
 
 @Controller('answer')
 export class AnswerController {
-    constructor(private readonly answerService: AnswerService) {}
+  constructor(private readonly answerService: AnswerService) {}
 
-    @Get()
-    getAnswers() {
-        return this.answerService.findAll()
-    }
+  @Get()
+  getAnswers() {
+    return this.answerService.findAll();
+  }
 
-    @Post()
-    createAnswer(@Body() body: Answer) {
-        return this.answerService.create(body)
-    }
+  @Post()
+  createAnswer(@Body() body: Answer) {
+    return this.answerService.create(body);
+  }
 }
