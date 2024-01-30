@@ -1,18 +1,24 @@
 import { Question } from 'src/question/question.entity';
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm'
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  ManyToOne,
+  JoinColumn,
+} from 'typeorm';
 
 @Entity()
 export class Answer {
   @PrimaryGeneratedColumn()
-  answerId: number
+  answerId: number;
 
-  @Column({nullable: true})
+  @Column({ nullable: true })
   answerContent: string;
 
-  @Column({default: false})
+  @Column({ default: false })
   correctAnswer: boolean;
 
-  @ManyToOne(type => Question, question => question.answers)
+  @ManyToOne(() => Question, (question) => question.answers)
   @JoinColumn({ name: 'questionId' })
   question: Question;
 }
