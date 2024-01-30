@@ -2,13 +2,13 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { QuestionModule } from './question/question.module';
 
-import { PlayerModule } from './player/player.module';
+import { UserModule } from './user/user.module';
 import { HistoryModule } from './history/history.module';
 import { AnswerModule } from './answer/answer.module';
 
 @Module({
   imports: [
-    PlayerModule,
+    UserModule,
     QuestionModule,
     AnswerModule,
     HistoryModule,
