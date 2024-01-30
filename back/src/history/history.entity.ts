@@ -1,18 +1,22 @@
-
-import { Player } from 'src/player/player.entity';
+import { User } from 'src/user/user.entity';
 import { Question } from 'src/question/question.entity';
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany, ManyToOne, JoinColumn } from 'typeorm'
-
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  OneToMany,
+  ManyToOne,
+  JoinColumn,
+} from 'typeorm';
 
 @Entity()
 export class History {
   @PrimaryGeneratedColumn()
-  historyId: number
+  id: number;
 
   @OneToMany(() => Question, (question) => question.history)
-  questions: Question[]
+  questions: Question[];
 
-  @ManyToOne(type => Player, player => player.histories)
-  @JoinColumn({ name: 'playerId' })
-  player: Player;
+  @ManyToOne(() => User, (user) => user.histories)
+  @JoinColumn({ name: 'id' })
+  user: User;
 }
