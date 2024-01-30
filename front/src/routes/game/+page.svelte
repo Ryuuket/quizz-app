@@ -116,7 +116,7 @@ h1 {
   <div class="input">
     <button class="value">
 
-      Réponse 1
+      Réponse 12
     </button>
     <button class="value">
 
