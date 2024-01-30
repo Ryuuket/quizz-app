@@ -1,6 +1,6 @@
 Entities that might be relevant for our project : 
 
-Candidat with its own set of entities such as : 
+User with its own set of entities such as : 
 
 - Name : string
 - PlayerId : UUID
