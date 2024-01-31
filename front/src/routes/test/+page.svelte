@@ -1,5 +1,6 @@
 <script lang="ts">
-  import GetQuestionsAndAnswers from '../../lib/components/GetQuestionsAndAnswers.svelte';
+	//import Game from '$lib/components/Game.svelte';
+	import GetQuestionsAndAnswers from '$lib/components/GetQuestionsAndAnswers.svelte';
 </script>
 
 

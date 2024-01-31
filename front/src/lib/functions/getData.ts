@@ -21,3 +21,17 @@ export async function getAnswers() {
 
     return answersList;
 }
+
+export async function getAnswerIsCorrect(questionIdAssociated: number) {
+    const data = await fetchData(`http://localhost:3000/answer`);
+    let rightAnswer = "";
+
+    for (let i = 0; i < data.length; i++) {
+        if ((data[i].questionIdAssociated === questionIdAssociated) && (data[i].correctAnswer === true)) {
+            rightAnswer = data[i].answerContent;
+            console.log(rightAnswer);
+        }
+    }
+
+    return rightAnswer;
+}
