@@ -1,43 +1,43 @@
 ajouter quelques seeds en bdd
 via le terminal :
 
-curl --location 'localhost:3000/player' \
+curl --location 'localhost:3000/user' \
 --header 'Content-Type: application/json' \
 --data-raw '[
     {
-    "playerId": 1,
-    "playerName": "Axel",
-    "playerEmail": "axel@simplon.co",
-    "playerPassword": "axel",
-    "playerScore": 160
+    "id": 1,
+    "name": "Axel",
+    "email": "axel@simplon.co",
+    "password": "axel",
+    "score": 160
     },
     {
-    "playerId": 2,
-    "playerName": "Frank",
-    "playerEmail": "frank@simplon.co",
-    "playerPassword": "frank",
-    "playerScore": 160
+    "id": 2,
+    "name": "Frank",
+    "email": "frank@simplon.co",
+    "password": "frank",
+    "score": 160
     },
     {
-    "playerId": 3,
-    "playerName": "Younes",
-    "playerEmail": "younes@simplon.co",
-    "playerPassword": "younes",
-    "playerScore": 160
+    "id": 3,
+    "name": "Younes",
+    "email": "younes@simplon.co",
+    "password": "younes",
+    "score": 160
     },
     {
-    "playerId": 4,
-    "playerName": "Julien",
-    "playerEmail": "julien@simplon.co",
-    "playerPassword": "julien",
-    "playerScore": 160
+    "id": 4,
+    "name": "Julien",
+    "email": "julien@simplon.co",
+    "password": "julien",
+    "score": 160
     },
     {
-    "playerId": 5,
-    "playerName": "Emma",
-    "playerEmail": "Emma@simplon.co",
-    "playerPassword": "emma",
-    "playerScore": 160
+    "id": 5,
+    "name": "Emma",
+    "email": "Emma@simplon.co",
+    "password": "emma",
+    "score": 160
     }
 ]'
 
@@ -45,16 +45,16 @@ curl --location 'localhost:3000/question' \
 --header 'Content-Type: application/json' \
 --data '[
     {
-    "questionId": 1,
-    "questionContent": "What is the capital of France?"
+    "id": 1,
+    "content": "What is the capital of France?"
     },
     {
-    "questionId": 2,
-    "questionContent": "Who wrote Romeo and Juliet?"
+    "id": 2,
+    "content": "Who wrote Romeo and Juliet?"
     },
     {
-    "questionId": 3,
-    "questionContent": "What is the square root of 25?"
+    "id": 3,
+    "content": "What is the square root of 25?"
     }
 ]'
 
@@ -138,15 +138,15 @@ curl --location 'localhost:3000/answer' \
 requête pour tester :
 
 SELECT
-  "question"."questionId",
-  "question"."questionContent",
-  "answer"."answerId",
-  "answer"."answerContent",
-  "answer"."correctAnswer"
+  "question"."id",
+  "question"."content",
+  "answer"."id",
+  "answer"."content",
+  "answer"."answer"
 FROM
   "question"
 JOIN
-  "answer" ON "question"."questionId" = "answer"."questionId";
+  "answer" ON "question"."id" = "answer"."questionId";
 
 ---
 
@@ -156,61 +156,3 @@ https://www.premieroctet.com/blog/bootstraper-api-avec-nestjs
 doc :
 https://docs.nestjs.com/techniques/database
 https://typeorm.io/migrations
-
----
-
-initialiser la bdd dans le dossier src
-npx typeorm migration:create -n initial
-
----
-
-Se connecter au postgres client
-Url : http://localhost:8080/
-Identifiant : admin@example.com
-Mot de passe : adminpassword
-
-Connecter la bdd au postgres client
-Servers -> Nouveau -> Server
-Nom : quiz
-Connexion
-host : postgresdb
-base de données : mydatabase
-admin: adminuser
-password : adminpassword
-
-Retrouver les infos des tables sur postgresclient :
-quiz -> bases de données -> mydatabase -> schémas -> tables
-
----
-
-équivalent SQL des tables orm : 
-CREATE TABLE IF NOT EXISTS Player (
-  playerId SERIAL PRIMARY KEY,
-  playerName VARCHAR(255),
-  playerEmail VARCHAR(255),
-  playerPassword VARCHAR(255),
-  playerScore INT
-);
-
-CREATE TABLE IF NOT EXISTS Question (
-  questionId SERIAL PRIMARY KEY,
-  questionContent VARCHAR(255),
-  historyId INT,
-  FOREIGN KEY (historyId) REFERENCES History(historyId)
-);
-
-CREATE TABLE IF NOT EXISTS Answer (
-  answerId SERIAL PRIMARY KEY,
-  answerContent VARCHAR(255),
-  correctAnswer BOOLEAN DEFAULT false,
-  questionId INT,
-  FOREIGN KEY (questionId) REFERENCES Question(questionId)
-);
-
-CREATE TABLE IF NOT EXISTS History (
-  historyId SERIAL PRIMARY KEY,
-  playerId INT,
-  FOREIGN KEY (playerId) REFERENCES Player(playerId)
-);
-
----
