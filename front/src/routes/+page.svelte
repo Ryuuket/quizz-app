@@ -18,8 +18,8 @@
     </div>
   
     <div>
-      <button class="buttonSignin" 
-        ><span>signin</span></button
+      <a class="buttonSignin" href="/create_question"
+        ><span>signin</span></a
       >
       <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
     </div>
@@ -59,7 +59,7 @@
       bottom: 0; /* Positionnement en bas */
       z-index: -1; /* Positionnement en arrière-plan */
   
-      background-color: rgb(53, 104, 53); /* Ajout d'un fond vert */
+      background-color: #356835; /* Ajout d'un fond vert */
       background-image: url("../lib/homepage.jpg"); /* Image de fond */
       background-position: center; /* Positionnement de l'image */
       background-size: absolute; /* Taille de l'image de fond */
