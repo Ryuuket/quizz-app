@@ -1,40 +1,22 @@
 <script lang="ts">
     import { getAnswers, getQuestions, getAnswerIsCorrect } from '../../lib/functions/getData';
-    import { keepSelectedElements } from '../../lib/functions/keepData';
+    import { keepSelectedElements } from '../functions/keepSelectedElements';
     import Button from './Button.svelte';
     import { onMount } from 'svelte';
+	import Validation from './Validation.svelte';
   
     let questionsList: any[] = [];
     let answersList: any[] = [];
-    let myData = $keepSelectedElements;
-
     let count: number = 0;
   
     const increment = () => {
-        count += 1
+        count += 1;
     }
   
     onMount(async () => {
         questionsList = await getQuestions();
         answersList = await getAnswers();
-        const correctAnswer = await getAnswerIsCorrect(count + 1);
-        console.log(correctAnswer);
     });
-
-    const validateAnswer = () => {
-        console.log(myData);
-
-        let answerByUser = myData[0].selectByUser;
-        console.log(answerByUser);
-/*
-        const correctAnswer = await getAnswerIsCorrect();
-
-        if (answerByUser !== correctAnswer) {
-            console.log("mauvaise réponse");
-        } else {
-            console.log("bonne réponse");
-        }*/
-    }   
 </script>
 
 <div id="bloc">
@@ -46,7 +28,8 @@
             <Button buttonText="{answer.answerContent}" />
         {/each}
 
-        <button on:click={() => validateAnswer()}>Valider</button>
+        <!--component validation à ajouter-->
+        <Validation />
         <button on:click={increment}>Question suivante</button>
     </div>
 </div>

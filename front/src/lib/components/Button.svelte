@@ -1,23 +1,25 @@
 <script>
-    import { keepSelectedElements } from "$lib/functions/keepData";
+    import { keepSelectedElements } from "$lib/functions/keepSelectedElements";
 /**
  * @type {any}
  */
     export let buttonText;
 
     const answerSelectByUser = () => {
-      let selectByUser = buttonText;
-      console.log(selectByUser);
-      
+        let selectByUser = buttonText;
+        console.log(selectByUser);
+
         // Obtenir la valeur actuelle du store
         const currentData = $keepSelectedElements;
 
+        console.log(currentData);
         // Ajouter un nouvel élément avec l'id approprié
         const newElement = {
-            id: currentData.length + 1,
-            selectByUser
+        id: currentData.length + 1,
+        selectByUser
         };
 
+        console.log(newElement);
         // Mettre à jour le store avec la nouvelle valeur
         keepSelectedElements.update(data => [...data, newElement]);
     };
