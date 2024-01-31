@@ -18,6 +18,9 @@ export class Answer {
   @Column({ default: false })
   correctAnswer: boolean;
 
+  @Column({ nullable: true })
+  questionIdAssociated: number;
+
   @ManyToOne(() => Question, (question) => question.answers)
   @JoinColumn({ name: 'questionId' })
   question: Question;

@@ -9,25 +9,32 @@
     <div id="question"> <!-- Titre de l'application -->
       <Head3d>Questions pour un développeur</Head3d>
     </div>
-  
+
     <div>
-      <a class="buttonStart" href="/game"
-        ><span>start</span></a
-      >
+      <a class="buttonStart" href="/test">
+        <button>TEST</button>
+      </a>
       <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
     </div>
   
     <div>
-      <button class="buttonSignin" 
-        ><span>signin</span></button
-      >
+      <a class="buttonStart" href="/game">
+        <span>start</span>
+      </a>
       <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
     </div>
   
     <div>
-      <button class="buttonSignup"
-        >><span>signup</span></button
-      >
+      <button class="buttonSignin">
+        <span>signin</span>
+      </button>
+      <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
+    </div>
+  
+    <div>
+      <button class="buttonSignup">
+        <span>signup</span>
+      </button>
       <!-- Bouton START qui appelle la fonction navigate avec le chemin "/start" -->
     </div>
   </div>

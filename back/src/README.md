@@ -62,76 +62,76 @@ curl --location 'localhost:3000/answer' \
 --header 'Content-Type: application/json' \
 --data '[
         {
-    "id": 1,
-    "content": "Paris",
-    "answer": true,
-    "questionId": 1
+    "answerId": 1,
+    "answerContent": "Paris",
+    "correctAnswer": true,
+    "questionIdAssociated": 1
     },
     {
-    "id": 2,
-    "content": "Madrid",
-    "answer": false,
-    "questionId": 1
+    "answerId": 2,
+    "answerContent": "Madrid",
+    "correctAnswer": false,
+    "questionIdAssociated": 1
     },
     {
-    "id": 3,
-    "content": "Nantes",
-    "answer": false,
-    "questionId": 1
+    "answerId": 3,
+    "answerContent": "Nantes",
+    "correctAnswer": false,
+    "questionIdAssociated": 1
     },
     {
-    "id": 4,
-    "content": "London",
-    "answer": false,
-    "questionId": 1
+    "answerId": 4,
+    "answerContent": "London",
+    "correctAnswer": false,
+    "questionIdAssociated": 1
     },
     {
-    "id": 5,
-    "content": "Marguerite Duras",
-    "answer": false,
-    "questionId": 2
+    "answerId": 5,
+    "answerContent": "Marguerite Duras",
+    "correctAnswer": false,
+    "questionIdAssociated": 2
     },
     {
-    "id": 6,
-    "content": "Victor Hugo",
-    "answer": false,
-    "questionId": 2
+    "answerId": 6,
+    "answerContent": "Victor Hugo",
+    "correctAnswer": false,
+    "questionIdAssociated": 2
     },
     {
-    "id": 7,
-    "content": "William Shakespeare",
-    "answer": true,
-    "questionId": 2
+    "answerId": 7,
+    "answerContent": "William Shakespeare",
+    "correctAnswer": true,
+    "questionIdAssociated": 2
     },
     {
-    "id": 8,
-    "content": "Marcel Pagnol",
-    "answer": false,
-    "questionId": 2
+    "answerId": 8,
+    "answerContent": "Marcel Pagnol",
+    "correctAnswer": false,
+    "questionIdAssociated": 2
     },
     {
-    "id": 9,
-    "content": "3",
-    "answer": false,
-    "questionId": 3
+    "answerId": 9,
+    "answerContent": "3",
+    "correctAnswer": false,
+    "questionIdAssociated": 3
     },
     {
-    "id": 10,
-    "content": "5",
-    "answer": true,
-    "questionId": 3
+    "answerId": 10,
+    "answerContent": "5",
+    "correctAnswer": true,
+    "questionIdAssociated": 3
     },
     {
-    "id": 11,
-    "content": "15",
-    "answer": false,
-    "questionId": 3
+    "answerId": 11,
+    "answerContent": "15",
+    "correctAnswer": false,
+    "questionIdAssociated": 3
     },
     {
-    "id": 12,
-    "content": "25",
-    "answer": false,
-    "questionId": 3
+    "answerId": 12,
+    "answerContent": "25",
+    "correctAnswer": false,
+    "questionIdAssociated": 3
     }
 ]'
 
