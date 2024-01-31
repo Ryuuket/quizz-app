@@ -65,73 +65,73 @@ curl --location 'localhost:3000/answer' \
     "answerId": 1,
     "answerContent": "Paris",
     "correctAnswer": true,
-    "questionId": 1
+    "questionIdAssociated": 1
     },
     {
     "answerId": 2,
     "answerContent": "Madrid",
     "correctAnswer": false,
-    "questionId": 1
+    "questionIdAssociated": 1
     },
     {
     "answerId": 3,
     "answerContent": "Nantes",
     "correctAnswer": false,
-    "questionId": 1
+    "questionIdAssociated": 1
     },
     {
     "answerId": 4,
     "answerContent": "London",
     "correctAnswer": false,
-    "questionId": 1
+    "questionIdAssociated": 1
     },
     {
     "answerId": 5,
     "answerContent": "Marguerite Duras",
     "correctAnswer": false,
-    "questionId": 2
+    "questionIdAssociated": 2
     },
     {
     "answerId": 6,
     "answerContent": "Victor Hugo",
     "correctAnswer": false,
-    "questionId": 2
+    "questionIdAssociated": 2
     },
     {
     "answerId": 7,
     "answerContent": "William Shakespeare",
     "correctAnswer": true,
-    "questionId": 2
+    "questionIdAssociated": 2
     },
     {
     "answerId": 8,
     "answerContent": "Marcel Pagnol",
     "correctAnswer": false,
-    "questionId": 2
+    "questionIdAssociated": 2
     },
     {
     "answerId": 9,
     "answerContent": "3",
     "correctAnswer": false,
-    "questionId": 3
+    "questionIdAssociated": 3
     },
     {
     "answerId": 10,
     "answerContent": "5",
     "correctAnswer": true,
-    "questionId": 3
+    "questionIdAssociated": 3
     },
     {
     "answerId": 11,
     "answerContent": "15",
     "correctAnswer": false,
-    "questionId": 3
+    "questionIdAssociated": 3
     },
     {
     "answerId": 12,
     "answerContent": "25",
     "correctAnswer": false,
-    "questionId": 3
+    "questionIdAssociated": 3
     }
 ]'
 

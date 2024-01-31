@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-import { Player } from 'src/player/player.entity';
-import { Question } from 'src/question/question.entity';
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany, ManyToOne, JoinColumn } from 'typeorm'
-=======
 import { User } from 'src/user/user.entity';
 import { Question } from 'src/question/question.entity';
 import {
@@ -12,7 +7,6 @@ import {
   ManyToOne,
   JoinColumn,
 } from 'typeorm';
->>>>>>> 67321451f90c4ddcb822043306087b74b2f4eb6d
 
 @Entity()
 export class History {

@@ -1,4 +1,4 @@
-import { Module } from "@nestjs/common";
+/*import { Module } from "@nestjs/common";
 import { AuthController } from "./auth.controller";
 import { AuthService } from "./auth.service";
 import { TypeOrmModule } from "@nestjs/typeorm";  
@@ -11,4 +11,4 @@ import { Player } from '../player/player.entity';
     controllers: [AuthController],
     providers: [AuthService],
 })
-export class AuthModule {}
+export class AuthModule {}*/
