@@ -1,20 +1,22 @@
 <script lang="ts">
+	import { keepCount } from '$lib/functions/keepCount';
     import { getAnswerIsCorrect } from '../../lib/functions/getData';
     import { keepSelectedElements } from '../functions/keepSelectedElements';
-    import { onMount } from 'svelte';
 
     let myData = keepSelectedElements;
     let answerIsCorrect: string;
+    let myDataCount = keepCount;
+    let count: number;
+    // récupérer le count via myDataCount
+
     let blocAnswer: HTMLDivElement;
     let blocValidate: HTMLDivElement;
-
-    onMount(async () => {
-        answerIsCorrect = await getAnswerIsCorrect(1);
-
-        $myData.forEach(item => {
-            console.log(item);
-        });
-    });
+/*
+    keepCount.subscribe(value => {
+        $myDataCount = value;
+        count = $myDataCount[$myDataCount.length - 1].count;
+        console.log("test", count);
+    });*/
 
     const validateAnswer = async () => {
         answerIsCorrect = await getAnswerIsCorrect(1);

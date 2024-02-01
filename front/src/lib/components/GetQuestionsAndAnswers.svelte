@@ -1,17 +1,13 @@
 <script lang="ts">
-    import { getAnswers, getQuestions, getAnswerIsCorrect } from '../../lib/functions/getData';
-    import { keepSelectedElements } from '../functions/keepSelectedElements';
-    import Button from './Button.svelte';
+    import { getAnswers, getQuestions } from '../../lib/functions/getData';
     import { onMount } from 'svelte';
 	import Validation from './Validation.svelte';
+	import NextQuestion from './NextQuestion.svelte';
+    import Button from './Button.svelte';
   
     let questionsList: any[] = [];
     let answersList: any[] = [];
-    let count: number = 0;
-  
-    const increment = () => {
-        count += 1;
-    }
+    let count = 0;
   
     onMount(async () => {
         questionsList = await getQuestions();
@@ -27,10 +23,8 @@
         {#each answersList.filter(answer => answer.questionIdAssociated === count + 1) as answer (answer.answerId)}
             <Button buttonText="{answer.answerContent}" />
         {/each}
-
-        <!--component validation à ajouter-->
         <Validation />
-        <button on:click={increment}>Question suivante</button>
+        <NextQuestion />
     </div>
 </div>
 
