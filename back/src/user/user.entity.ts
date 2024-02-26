@@ -21,6 +21,9 @@ export class User {
   @Column({ nullable: false })
   isAdmin: boolean;
 
+  @Column({ nullable: true })
+  username: string;
+
   @OneToMany(() => History, (history) => history.user)
   histories: History[];
 }
