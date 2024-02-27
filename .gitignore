@@ -1,7 +1,7 @@
 # compiled output
 /back/dist
 /back/node_modules
-
+/node_modules
 # Logs
 /back/logs
 /back/*.log

@@ -20,7 +20,7 @@ export class AuthService {
   async login(username: string, password: string): Promise<string> {
     const user = await this.validateUser(username);
   
-    // Here you can add password validation logic if needed
+    
     
     return this.jwtService.sign({ username: user.username });
   }
