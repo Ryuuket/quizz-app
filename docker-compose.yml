@@ -36,7 +36,9 @@ services:
   app:
     depends_on:
       - postgresdb
-    build: ./back
+    build:
+      context: ./back
+      
     ports:
       - "3000:3000"
     environment:
