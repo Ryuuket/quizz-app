@@ -8,6 +8,8 @@ import { AnswerModule } from './answer/answer.module';
 import { AuthService } from '../auth.service';
 import { AuthController } from '../auth.controller';
 import { JwtStrategy } from './jwt.strategy';
+import { jwtConstants } from './constants';
+import { UserService } from './user/user.service';
 
 @Module({
   imports: [
@@ -27,11 +29,11 @@ import { JwtStrategy } from './jwt.strategy';
       autoLoadEntities: true,
     }),
     JwtModule.register({
-      secret: 'your_secret_key',
+      secret: jwtConstants.secret,
       signOptions: { expiresIn: '1h' },
     }),
   ],
-  providers: [AuthService, JwtStrategy],
+  providers: [AuthService, JwtStrategy, UserService],
   controllers: [AuthController],
 })
 export class AppModule {}
